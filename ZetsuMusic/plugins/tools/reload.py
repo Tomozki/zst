@@ -50,7 +50,7 @@ async def reload_admin_cache(client, message: Message, _):
         await message.reply_text(_["admin_20"])
     except:
         await message.reply_text(
-            "Gagal memuat ulang admincache.  Pastikan Bot adalah admin di obrolan Anda."
+            "Failed to reload admincache. Make sure the Bot is an admin in your chat."
         )
 
 
@@ -63,7 +63,7 @@ async def reload_admin_cache(client, message: Message, _):
 @AdminActual
 async def restartbot(client, message: Message, _):
     mystic = await message.reply_text(
-        f"Tunggu sebentar.. Memulai {MUSIC_BOT_NAME} untuk obrolan Anda.."
+        f"Wait a minute.. Getting started {MUSIC_BOT_NAME} for your chat.."
     )
     await asyncio.sleep(1)
     try:
@@ -83,7 +83,7 @@ async def restartbot(client, message: Message, _):
         except:
             pass
     return await mystic.edit_text(
-        "Berhasil memulai ulang.  Coba mainkan sekarang.."
+        "Successful restart. Try playing now.."
     )
 
 
@@ -114,11 +114,11 @@ async def stop_download(client, CallbackQuery: CallbackQuery, _):
     task = lyrical.get(message_id)
     if not task:
         return await CallbackQuery.answer(
-            "Mengunduh sudah Selesai.", show_alert=True
+            "Downloading is Done.", show_alert=True
         )
     if task.done() or task.cancelled():
         return await CallbackQuery.answer(
-            "Mengunduh sudah Selesai atau Dibatalkan.",
+            "Download Completed or Canceled.",
             show_alert=True,
         )
     if not task.done():
@@ -129,15 +129,15 @@ async def stop_download(client, CallbackQuery: CallbackQuery, _):
             except:
                 pass
             await CallbackQuery.answer(
-                "Download Dibatalkan", show_alert=True
+                "Download Aborted", show_alert=True
             )
             return await CallbackQuery.edit_message_text(
-                f"Download Dibatalkan by {CallbackQuery.from_user.mention}"
+                f"Download Canceled by {CallbackQuery.from_user.mention}"
             )
         except:
             return await CallbackQuery.answer(
-                "Gagal menghentikan Pengunduhan.", show_alert=True
+                "Failed to stop Download.", show_alert=True
             )
     await CallbackQuery.answer(
-        "Gagal mengenali tugas yang sedang berjalan", show_alert=True
+        "Failed to recognize a running task", show_alert=True
     )
