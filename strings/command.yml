@@ -11,13 +11,13 @@
 # Commands in Every Language
 
 # Bot Commands
-PING_COMMAND : ["ping"]
-START_COMMAND : ["start"]
-HELP_COMMAND : ["help"]
+PING_COMMAND : ["vping"]
+START_COMMAND : ["sexstart"]
+HELP_COMMAND : ["vhelp"]
 SETTINGS_COMMAND : ["settings", "setting"]
 RELOAD_COMMAND : ["admincache", "reload"]
 GSTATS_COMMAND : ["gstats"]
-STATS_COMMAND : ["stats"]
+STATS_COMMAND : ["vstats"]
 LANGUAGE_COMMAND : ["lang", "language", "langs"]
 
 # Play Commands
@@ -34,7 +34,7 @@ DELETEPLAYLIST_COMMAND : ["deleteplaylist"]
 # Tools
 QUEUE_COMMAND : ["queue","cqueue", "player", "cplayer", "playing", "cplaying"]
 SONG_COMMAND : ["song", "video"]
-LYRICS_COMMAND : ["lyrics"]
+LYRICS_COMMAND : ["vlyrics"]
 
 
 # Admin Commands
@@ -43,14 +43,14 @@ UNAUTH_COMMAND : ["unauth"]
 AUTHUSERS_COMMAND : ["authusers"]
 PAUSE_COMMAND : ["pause", "cpause"]
 RESUME_COMMAND : ["resume", "cresume"]
-MUTE_COMMAND : ["mute", "cmute"]
+MUTE_COMMAND : ["vmute", "cmute"]
 UNMUTE_COMMAND : ["unmute", "cunmute"]
 STOP_COMMAND : ["stop", "end", "cstop", "cend"]
 SKIP_COMMAND : ["skip", "cskip"]
 SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
 LOOP_COMMAND : ["loop", "cloop"]
 SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
-RESTART_COMMAND : ["restart"]
+RESTART_COMMAND : ["vrestart"]
 
 # Sudo Users Commaands
 
@@ -60,7 +60,7 @@ DELSUDO_COMMAND : ["delsudo"]
 SUDOUSERS_COMMAND : ["sudolist"]
 
 #Broadcast 
-BROADCAST_COMMAND : ["broadcast"]
+BROADCAST_COMMAND : ["vbroadcast"]
 
 #Blacklist chat
 BLACKLISTCHAT_COMMAND : ["blacklistchat"]
@@ -86,7 +86,7 @@ VARS_COMMAND : ["vars", "config"]
 
 #Basic Bot Commands
 UPDATE_COMMAND : ["update"]
-REBOOT_COMMAND : ["reboot"]
+REBOOT_COMMAND : ["vreboot"]
 AUTOEND_COMMAND : ["autoend"]
 
 #Private Bot Mode
@@ -100,13 +100,13 @@ UNBLOCK_COMMAND : ["unblock"]
 BLOCKED_COMMAND : ["blockedusers"]
 
 #sPEEDTEST
-SPEEDTEST_COMMAND : ["speedtest"]
+SPEEDTEST_COMMAND : ["vspeedtest"]
 
 #Voice chat commands
 ACTIVEVC_COMMAND : ["activevc"]
 ACTIVEVIDEO_COMMAND : ["activevd"]
 
 #Gban Commands
-GBAN_COMMAND : ["gban"]
-UNGBAN_COMMAND : ["ungban"]
-GBANNED_COMMAND : ["gbannedusers"]
+GBAN_COMMAND : ["vgban"]
+UNGBAN_COMMAND : ["vungban"]
+GBANNED_COMMAND : ["vgbannedusers"]
