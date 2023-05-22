@@ -62,7 +62,7 @@ async def inline_query_handler(client, query):
 🎥**Channel Name:** {channel}
 📎**Channel Link:** [Visit From Here]({channellink})
 
-__Balas dengan /play pada pesan yang dicari ini untuk mengalirkannya di obrolan suara.__
+__Reply with /play on this searched message to stream it in voice chat.__
 
 ⚡️ ** Inline Search By {MUSIC_BOT_NAME} **"""
             answers.append(
