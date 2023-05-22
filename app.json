@@ -1,17 +1,10 @@
 {
     "name": "ZetsuMusic",
     "description": "Streaming Panggilan Grup Telegram bot dengan beberapa fitur berguna, ditulis dengan Python dengan Pyrogram dan Py-Tgcalls. Platform pendukung seperti Tautan Youtube, Spotify, Resso, AppleMusic, Soundcloud, dan M3u8.",
-    "logo": "https://telegra.ph/file/b7377dbb15379573b68dd.jpg",
-    "keywords": [
-    "python3",
-    "telegram",
-    "bot",
-    "Zetsu",
-    "ZetsuMusic",
-    "telegram-bot",
-    "pyrogram"
-    ],
-    "stack": "heroku-22",
+   "logo": "https://telegra.ph/file/b7377dbb15379573b68dd.jpg",
+    "keywords": ["telegram music bot", "voice chat", "pytgcalls"],
+    "repository": "https://github.com/KAC-HU/zetsu",
+    "stack": "container",
     "env": {
       "API_ID": {
         "description": "Dapatkan ini dari https://my.telegram.org",
@@ -80,21 +73,11 @@
       }
     },
     "buildpacks": [
-          {
-              "url": "heroku/python"
-          },
-          {
-              "url": "heroku/nodejs"
-          },
-          {
-              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-          }
-      ],
-      "formation": {
-          "worker": {
-              "quantity": 1,
-              "size": "eco"
-          }
-      },
-      "stack": "heroku-22"
-  }
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
