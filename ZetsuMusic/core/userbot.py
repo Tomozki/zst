@@ -57,8 +57,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("HimikoSupportChat")
-                await self.one.join_chat("d4mch")
+                await self.one.join_chat("togasupport")
+                await self.one.join_chat("izuya")
             except:
                 pass
             assistants.append(1)
@@ -68,7 +68,7 @@ class Userbot(Client):
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Akun Asisten 1 gagal mengakses Grup log.  Pastikan Anda telah menambahkan asisten Anda ke grup log Anda dan dipromosikan sebagai admin!! "
+                    f"Assistant account 1 failed to access the log group. Make sure you have added your assistant to your log group and promoted as admin!! "
                 )
                 sys.exit()
             get_me = await self.one.get_me()
@@ -98,7 +98,7 @@ class Userbot(Client):
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Akun Asisten 2 gagal mengakses Grup log.  Pastikan Anda telah menambahkan asisten Anda ke grup log Anda dan dipromosikan sebagai admin!! "
+                    f"Assistant account 2 failed to access the log group. Make sure you have added your assistant to your log group and promoted as admin!! "
                 )
                 sys.exit()
             get_me = await self.two.get_me()
@@ -128,7 +128,7 @@ class Userbot(Client):
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Akun Asisten 3 gagal mengakses Grup log.  Pastikan Anda telah menambahkan asisten Anda ke grup log Anda dan dipromosikan sebagai admin!! "
+                    f"Assistant account 3 failed to access the log group. Make sure you have added your assistant to your log group and promoted as admin!! "
                 )
                 sys.exit()
             get_me = await self.three.get_me()
@@ -158,7 +158,7 @@ class Userbot(Client):
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Akun Asisten 4 gagal mengakses Grup log.  Pastikan Anda telah menambahkan asisten Anda ke grup log Anda dan dipromosikan sebagai admin!! "
+                    f"Assistant account 4 failed to access the log group. Make sure you have added your assistant to your log group and promoted as admin!! "
                 )
                 sys.exit()
             get_me = await self.four.get_me()
@@ -188,7 +188,7 @@ class Userbot(Client):
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Akun Asisten 5 gagal mengakses Grup log.  Pastikan Anda telah menambahkan asisten Anda ke grup log Anda dan dipromosikan sebagai admin!! "
+                    f"Assistant account 5 failed to access the log group. Make sure you have added your assistant to your log group and promoted as admin!! "
                 )
                 sys.exit()
             get_me = await self.five.get_me()
