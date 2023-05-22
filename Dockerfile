@@ -2,7 +2,7 @@ FROM debian:11
 FROM python:3.10.5-slim-buster
 FROM nikolaik/python-nodejs:latest
 
-WORKDIR /DzL/
+WORKDIR /zetsu/
 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get -y install git
