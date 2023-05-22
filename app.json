@@ -8,12 +8,12 @@
     "env": {
       "API_ID": {
         "description": "Dapatkan ini dari https://my.telegram.org",
-        "value": "",
+        "value": "26788480",
         "required": true
       },
       "API_HASH": {
         "description": "Dapatkan ini dari https://my.telegram.org",
-        "value": "",
+        "value": "858d65155253af8632221240c535c314",
         "required": true
       },
       "AUTO_LEAVING_ASSISTANT": {
@@ -23,27 +23,27 @@
       },
       "BOT_TOKEN": {
         "description": "Token Bot dari Botfather",
-        "value": "",
+        "value": "6046988838:AAEAc4QIq-HNBgj6gcBCUShALaklW9VT4gg",
         "required": true
       },
       "MONGO_DB_URI": {
         "description": "Dapatkan url mongodb dari https://cloud.mongodb.com . Anda dapat mengosongkannya jika Anda mau, bot akan menggunakan database Zetsu untuk Anda.",
-        "value": "",
+        "value": "mongodb+srv://anicadeupload:anicade123@cluster0.z0a8l6k.mongodb.net/?retryWrites=true&w=majority",
         "required": true
       },
       "MUSIC_BOT_NAME": {
         "description": "Nama untuk Bot Musik Anda. Tolong jangan gunakan karakter ascii",
-        "value": "",
+        "value": "TOGA",
         "required": true
       },
       "OWNER_ID": {
         "description": "ID pengguna dari pengguna yang ingin Anda tambahkan sebagai PEMILIK. Beberapa nilai harus dipisahkan dengan spasi.",
-        "value": "1883676087",
+        "value": "5163444566",
         "required": true
       },
       "STRING_SESSION": {
         "description": "Dapatkan String Session Pyrogram di Grup » https://t.me/damprivateroom » Lalu ketik /get string.",
-        "value": "",
+        "value": "AQA7jK4cbJcKMFDoak0Ud0VJI6n4XW4buBDbw7g05DXFOfUMT5IIPDT6tNa_dWL2gt6ntGE_wnfWEUyK9o66LOG2UxdGOgUMrnWw0G0TChMMsdsV8TkZkwkIA5qZQp862S7NMs9yIkPPZOzCdu45zb79rpl6dVMtn4fVeSOJ8SEC6UWsjFPRmhN38R4X8UwvrhTMfwvDu1fXYkFfqRj16WtuVLAukdTK4g7-agC4J4Wey07m2vAiIUDsl8vnsm43VR2beuxFFeTt_u12Lp5zvcUzWytITAnPsD9qwpOhjhvAffpimUcTxVFCxsmkgEki0si6BmAQVH-uj23lEuXAKcxzAAAAAVbwES0A",
         "required": true
       },
       "HEROKU_API_KEY": {
@@ -58,12 +58,12 @@
       },
       "LOG_GROUP_ID": {
         "description": "ID Grup Log Anda, tambahkan bot Anda dan promosikan sebagai admin dengan hak penuh!. Gunakan hanya Grup. Tolong jangan gunakan ID Saluran.",
-        "value": "",
+        "value": "-1001652671967",
         "required": true
       },
       "UPSTREAM_REPO": {
         "description": "Jika Anda tidak tahu ini, biarkan apa adanya!",
-        "value": "https://github.com/damsyx/ZetsuMusic",
+        "value": "https://github.com/kac-hu/zetsu",
         "required": true
       },
       "UPSTREAM_BRANCH": {
