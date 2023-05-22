@@ -20,7 +20,7 @@ TEMP_MONGODB = "mongodb+srv://shikhar:shikhar@cluster0.6xzlh.mongodb.net/myFirst
 
 if config.MONGO_DB_URI is None:
     LOGGER(__name__).warning(
-        "Tidak ada URL DB MONGO yang ditemukan.. Bot Anda akan berfungsi di Database Zetsu"
+        "No MONGO DB URLs found.. Your bot will work on the Zetsu Database"
     )
     temp_client = Client(
         "Zetsu",
