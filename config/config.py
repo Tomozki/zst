@@ -17,14 +17,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "26788480"))
+API_HASH = getenv("API_HASH", "858d65155253af8632221240c535c314")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "6046988838:AAEAc4QIq-HNBgj6gcBCUShALaklW9VT4gg")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://anicadeupload:anicade123@cluster0.z0a8l6k.mongodb.net/?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -37,18 +37,18 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001916481509"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "refrain")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "5321341122").split())
 )  # Input type must be interger
 
 # JANGAN HAPUS YA KONTOL
-OWNER_ID.append(1725671304)
+OWNER_ID.append(5321341122)
 
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -68,10 +68,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", None
+    "SUPPORT_CHANNEL", "togasupport"
 )  # Example:- https://t.me/d4mch
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", None
+    "SUPPORT_GROUP", "togasupport"
 )  # Example:- https://t.me/HimikoSupportChat 
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -138,7 +138,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "AQA7jK4cbJcKMFDoak0Ud0VJI6n4XW4buBDbw7g05DXFOfUMT5IIPDT6tNa_dWL2gt6ntGE_wnfWEUyK9o66LOG2UxdGOgUMrnWw0G0TChMMsdsV8TkZkwkIA5qZQp862S7NMs9yIkPPZOzCdu45zb79rpl6dVMtn4fVeSOJ8SEC6UWsjFPRmhN38R4X8UwvrhTMfwvDu1fXYkFfqRj16WtuVLAukdTK4g7-agC4J4Wey07m2vAiIUDsl8vnsm43VR2beuxFFeTt_u12Lp5zvcUzWytITAnPsD9qwpOhjhvAffpimUcTxVFCxsmkgEki0si6BmAQVH-uj23lEuXAKcxzAAAAAVbwES0A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -150,7 +150,7 @@ STRING5 = getenv("STRING_SESSION5", None)
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
 LOG = 2
-LOG_FILE_NAME = "Zetsulogs.txt"
+LOG_FILE_NAME = "refrainlogs.txt"
 adminlist = {}
 lyrical = {}
 chatstats = {}
@@ -161,7 +161,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", None)
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/3b663a7e9a414304c084f.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
