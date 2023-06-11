@@ -92,7 +92,7 @@
       },
       "PING_IMG_URL": {
         "description": "dzmusic",
-        "value": "",
+        "value": "https://graph.org/file/5836942aa64825b38cb03.png",
         "required": false
       },
       "CLEANMODE_MINS": {
@@ -102,47 +102,47 @@
       },
       "START_IMG_URL": {
         "description": "dzmusic",
-        "value": "",
+        "value": "https://graph.org/file/2edc2a402fdafde9954b5.jpg",
         "required": false
       },
       "PLAYLIST_IMG_URL": {
         "description": "dzmusic",
-        "value": "",
+        "value": "https://graph.org/file/8aa2d379f522ea0cb3918.jpg",
         "required": false
       },
       "GLOBAL_IMG_URL": {
         "description": "dzmusic",
-        "value": "",
+        "value": "https://graph.org/file/e66818e142b1353fb0117.jpg",
         "required": false
       },
       "STATS_IMG_URL": {
         "description": "dzmusic",
-        "value": "",
+        "value": "https://graph.org/file/a8b5f31a076d2a5ab7754.jpg",
         "required": false
       },
       "TELEGRAM_AUDIO_URL": {
         "description": "dzmusic",
-        "value": "",
+        "value": "https://graph.org/file/2edc2a402fdafde9954b5.jpg",
         "required": false
       },
       "TELEGRAM_VIDEO_URL": {
         "description": "dzmusic",
-        "value": "",
+        "value": "https://graph.org/file/2edc2a402fdafde9954b5.jpg",
         "required": false
       },
       "STREAM_IMG_URL": {
         "description": "dzmusic",
-        "value": "",
+        "value": "https://graph.org/file/2dbb5a2c5380520f9cdbc.jpg",
         "required": false
       },
       "SOUNCLOUD_IMG_URL": {
         "description": "dzmusic",
-        "value": "",
+        "value": "https://graph.org/file/2edc2a402fdafde9954b5.jpg",
         "required": false
       },
       "YOUTUBE_IMG_URL": {
         "description": "dzmusic",
-        "value": "",
+        "value": "https://graph.org/file/2edc2a402fdafde9954b5.jpg",
         "required": false
       },
       "UPSTREAM_REPO": {
