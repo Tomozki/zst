@@ -4,10 +4,10 @@ FROM nikolaik/python-nodejs:latest
 
 WORKDIR /zetsu/
 
-RUN apt-get update && apt-get upgrade -y
-RUN apt-get -y install git
+RUN sudo apt-get update && sudo apt-get upgrade -y
+RUN sudo apt-get -y install git
 RUN python3 -m pip install -U pip
-RUN apt-get install -y wget python3-pip curl bash neofetch ffmpeg software-properties-common
+RUN sudo apt-get install -y wget python3-pip curl bash neofetch ffmpeg software-properties-common
 
 COPY requirements.txt .
 
