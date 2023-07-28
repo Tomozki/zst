@@ -1,4 +1,13 @@
-version: "1"
+version: '4'
 services:
-  app:
-    build: .
+  SUMI:
+    container_name: music
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - API_ID=$API_ID
+      - API_HASH=$API_HASH
+      - BOT_TOKEN=$BOT_TOKEN
+      - OWNER_ID=$OWNER_ID
+    restart: on-failure
