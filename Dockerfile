@@ -4,8 +4,6 @@ FROM nikolaik/python-nodejs:latest
 
 WORKDIR /zetsu/
 
-RUN sudo apt-get update && sudo apt-get upgrade -y
-RUN sudo apt-get -y install git
 RUN python3 -m pip install -U pip
 RUN sudo apt-get install -y wget python3-pip curl bash neofetch ffmpeg software-properties-common
 
