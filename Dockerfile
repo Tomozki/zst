@@ -4,7 +4,7 @@ FROM nikolaik/python-nodejs:latest
 
 WORKDIR /zetsu/
 
-RUN python3 -m pip install -U pip
+RUN docker build --no-cache .
 RUN apt-get install -y wget python3-pip curl bash neofetch ffmpeg software-properties-common
 
 COPY requirements.txt .
