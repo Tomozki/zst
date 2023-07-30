@@ -4,9 +4,8 @@ FROM nikolaik/python-nodejs:latest
 
 WORKDIR /zetsu/
 
-RUN apk add --update linux-headers;
 RUN python3 -m pip install -U pip
-RUN sudo apt-get install -y wget python3-pip curl bash neofetch ffmpeg software-properties-common
+RUN apt-get install -y wget python3-pip curl bash neofetch ffmpeg software-properties-common
 
 COPY requirements.txt .
 
