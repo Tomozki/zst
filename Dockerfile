@@ -1,4 +1,3 @@
-FROM debian:11
 FROM python:3.10.5-slim-buster
 FROM nikolaik/python-nodejs:latest
 
