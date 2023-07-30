@@ -1,9 +1,13 @@
-version: "3.3"
-
+version: "3.9"
 services:
-  app:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    command: python3 -m ZetsuMusic
-    restart: on-failure
+  fileshare:
+    build: .
+    image: zst:${tag}
+    container_name: zkinot
+    network_mode: bridge
+    pull_policy: never
+
+networks:
+  default: 
+    external: true
+    name: bridge
