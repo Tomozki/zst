@@ -1,8 +1,9 @@
-version: '4'
+version: "3.3"
+
 services:
-  zetsu:
-    container_name: music
+  app:
     build:
       context: .
       dockerfile: Dockerfile
+    command: python3 -m ZetsuMusic
     restart: on-failure
